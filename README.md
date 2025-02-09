@@ -1,6 +1,6 @@
 # ntpq_sysstats
 
-Simple python script to extract `ntpq -c sysstats` metrics for ingesting into InfluxDB.
+Simple python script to extract `ntpq -c sysstats` metrics for ingesting into InfluxDB using Telegraf.
 
 ## Prerequisites
 
