@@ -4,7 +4,11 @@ Simple python script to extract `ntpq -c sysstats` metrics for ingesting into In
 
 ## Prerequisites
 
-Obviously `ntpq` and `python3`.
+Obviously `ntpq` and `python3`. Tested with following versions on a Debian 12.9 system:
+
+- `ntpq ntpsec-1.2.2`
+- `Python 3.11.2`
+- `Telegraf 1.33.1`
 
 ## Usage
 
