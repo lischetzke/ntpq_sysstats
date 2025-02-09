@@ -2,7 +2,7 @@
 import os
 
 hostname = "localhost"
-debug = True
+debug = False
 
 # execute command
 data = os.popen("ntpq -c sysstats").read()
