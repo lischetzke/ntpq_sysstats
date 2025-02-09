@@ -50,4 +50,4 @@ for i in range(len(data)):
 
 # output telegraf using format
 for i in range(len(data)):
-    print("ntp_sysstats,host={} {}={}".format(hostname, data[i][0], data[i][1]))
+    print("ntpq_sysstats,host={} {}={}".format(hostname, data[i][0], data[i][1]))
